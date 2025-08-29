@@ -12,7 +12,7 @@ All performance numbers given in your report should be on compute nodes of the c
 
 You are required to actively use Copilot to solve the programming part of the problem, to generate the solution code, and to test code. You are responsible for checking the accuracy of the code, including edge cases.
 
-You MUST NOT collaborate with other students or take help from other (non-Copilot) online sources to solve any part of the problem, including code, prompts, algorithms, time/space complexity, etc.
+You MUST NOT collaborate with other students or take help from other (non-Copilot) online sources to solve any part of the problem, including code, prompts, algorithms, time/space complexity, etc. You must keep your answers inaccessible to other students.
 
 You are provided a `main.cpp` file which calls helper functions for tasks such as file reading and writing output to a file. By default, this uses the sample input and output provided by us. You can edit the file paths in `main.cpp` if you need to change the input files. You must not change anything else in `main.cpp`. We will run our own test cases using this file, so any modifications beyond the allowed changes could affect your evaluation. You are also not allowed to change the other files used for file operations (`file_writer.h`, `file_reader.h`).
 
