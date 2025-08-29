@@ -3,7 +3,7 @@
 ---
 
 Given a list of parcels, each represented as $[id, weight]$ , this function  
-identifies parcels with duplicate IDs and selects the one with the  
+identifies parcels with duplicate IDs and weights and selects the one with the  
 minimum weight for each such ID.  
 
 $\textbf{Input:}$
