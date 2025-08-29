@@ -79,7 +79,7 @@ You are working as a software engineer for a parcel delivery company. The compan
 ### Q1.
 You are given a list of parcels, where each parcel is represented by its ID and weight. Some parcels may appear more than once in the list (i.e., duplicate IDs). Two parcels with the same parcel ID but different weights should be considered duplicates.  
 
-Your task is to detect all duplicate parcels and return the minimum weight occurrence of each duplicate parcel in the specified output format.  
+Your task is to detect all duplicate parcels and return the minimum weight occurrence of each duplicate parcel in sorted order of ids in the specified output format.  
 
 - Complete the function named **question_one** in the code template.  
 - The function syntax, input format, and output format are described in the `function_syntax.md` file.  
@@ -151,7 +151,7 @@ Two trucks start their journeys simultaneously:
 Among the n cities, k of them are metro cities equipped with booster fuel stations. At these stations:  
 - Refueling takes 0 time.  
 - Once a truck refuels, its speed doubles, meaning the travel time on every subsequent road is reduced to half the original time.  
-- Note that refueling can be done only once by each truck
+- Note that refueling can be done atmost once by each truck
 
 The drivers of the two trucks are old school friends who wish to meet each other as soon as possible. Since they are meeting after a long time, they want to meet in a city rather than on a road connecting the cities. One can also wait for the other in a city (node). Your task is to determine the earliest possible time at which they can meet, if they both follow optimal routes. 
 
