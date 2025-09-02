@@ -13,11 +13,10 @@ parveshbarak@10.24.1.10’s password: defaultpassword
 ```
 
 ## Note:
-- <b>Please change the password  </b> using the command `passwd` on your first login, to your preference but make sure the passwords are strong with a minimum of 6 characters, with uppercase/lowecase letters, numbers and special character combinations. 
-- Also a dedicated scratch/username has been created. Use this space to store your data, as the home directory has limited storage capacity.
+- <b>You must change the password  </b> by using the command `passwd` on your first login, to your preference but make sure the passwords are strong with a minimum of 6 characters, with uppercase/lowecase letters, numbers and special character combinations. You may risk exposing your code to others if the password is not changed, which could result in penalties.
+- Also a dedicated folder `scratch/username` has been created. Use this space to store your data, as the home directory has limited storage capacity.
 
 ### Refer to `cluster_schedule.md` to check your assigned slot and node
-
 
 ## Usage Guidelines
 - Store all files in `/scratch/username`
