@@ -2,17 +2,17 @@
 
 ## Total Points: 20
 
-* **Posted on 2025-08-25**
-* **Due on 2025-09-20 11:59 PM**
+* **Posted on 25-08-2025**
+* **Due on 20-09-2025 11:59 PM** (No extension will be granted)
 
 ## INSTRUCTIONS
-All problems must be solved using C++ and compile/execute correctly on the Rigel cluster. You may test and debug on your local machine, but the final evaluation will be done on Rigel.
+All problems must be solved using C++ and compile/execute correctly on the teaching cluster. You may test and debug on your local machine, but the final evaluation will be done on the cluster. 
 
-All performance numbers given in your report should be on Rigel compute nodes. Profiling experiments should be run during your assigned timeslot to avoid performance interference. We should be able to reproduce your performance results.
+All performance numbers given in your report should be on compute nodes of the cluster. Profiling experiments should be run during your assigned timeslot to avoid performance interference. We should be able to reproduce your performance results.
 
 You are required to actively use Copilot to solve the programming part of the problem, to generate the solution code, and to test code. You are responsible for checking the accuracy of the code, including edge cases.
 
-You MUST NOT collaborate with other students or take help from other (non-Copilot) online sources to solve any part of the problem, including code, prompts, algorithms, time/space complexity, etc.
+You MUST NOT collaborate with other students or take help from other (non-Copilot) online sources to solve any part of the problem, including code, prompts, algorithms, time/space complexity, etc. You must keep your answers inaccessible to other students.
 
 You are provided a `main.cpp` file which calls helper functions for tasks such as file reading and writing output to a file. By default, this uses the sample input and output provided by us. You can edit the file paths in `main.cpp` if you need to change the input files. You must not change anything else in `main.cpp`. We will run our own test cases using this file, so any modifications beyond the allowed changes could affect your evaluation. You are also not allowed to change the other files used for file operations (`file_writer.h`, `file_reader.h`).
 
@@ -79,7 +79,7 @@ You are working as a software engineer for a parcel delivery company. The compan
 ### Q1.
 You are given a list of parcels, where each parcel is represented by its ID and weight. Some parcels may appear more than once in the list (i.e., duplicate IDs). Two parcels with the same parcel ID but different weights should be considered duplicates.  
 
-Your task is to detect all duplicate parcels and return the minimum weight occurrence of each duplicate parcel in the specified output format.  
+Your task is to detect all duplicate parcels and return the minimum weight occurrence of each duplicate parcel in sorted order of ids in the specified output format.  
 
 - Complete the function named **question_one** in the code template.  
 - The function syntax, input format, and output format are described in the `function_syntax.md` file.  
@@ -151,7 +151,7 @@ Two trucks start their journeys simultaneously:
 Among the n cities, k of them are metro cities equipped with booster fuel stations. At these stations:  
 - Refueling takes 0 time.  
 - Once a truck refuels, its speed doubles, meaning the travel time on every subsequent road is reduced to half the original time.  
-- Note that refueling can be done only once by each truck
+- Note that refueling can be done atmost once by each truck
 
 The drivers of the two trucks are old school friends who wish to meet each other as soon as possible. Since they are meeting after a long time, they want to meet in a city rather than on a road connecting the cities. One can also wait for the other in a city (node). Your task is to determine the earliest possible time at which they can meet, if they both follow optimal routes. 
 
@@ -176,65 +176,3 @@ Complete function **question_three**, and if the two trucks cannot meet due to n
 - 4 marks for code  
 - 1 marks for Copilot prompt  
 - 4 marks for profiling and report  
-
-
-
-
-
-
-
-# Need to define the range of values n,m and h can take
--  similarly for all other questions
-
-
-
-
-
-
-<!--  OLD -->
-
-<!-- 
-Q2:
-
-The company's warehouse uses a conveyor belt system structured as a binary tree.
-Each node in the tree represents a junction, where parcels can be directed either left or right based on their destination city.
-The root node (junction 0) is called the root junction.
-The leaf nodes are called loading junctions, where parcels finally accumulate before being loaded onto trucks.
-Junctions are numbered in level-order traversal order from 0 to m.
-Parcels are initially placed at the root junction and are routed down the conveyor belts to different loading junctions (leaf nodes).
-- You are given:
-  - A binary tree representing the conveyor netw.
-  - A mapping of parcels currently present at each loading junction.
-  - A query list of parcel IDs.
-- Task:
-  - Find the highest-numbered junction ID (i.e., junction with the largest index in level order) such that all parcels from the query list were present in the subtree rooted at that junction.
-- The function syntax, input and output format is described in the `function_syntax.md` file
-- Sample input and output for sanity check:
-  * tests_Q3/preorder.txt
-  * tests_Q3/inorder.txt
-  * tests_Q3/leaf_parcels.txt
-  * tests_Q3/query_parcels.txt
-  * tests_Q3/junction.txt
-
-
-
-
-Q3:
-
-The company operates warehouses in few city of the country. The road map of the country can be represented as a weighted graph:
-Each city is a node. (total n nodes numberd 1 t n)
-Each road between two cities is an edge with the time taken to travel that road. (total m roads)
-There are two trucks, one start from kargilcity (i.e. node 1) and other starts from the city Kanyakumari (i.e. node n).
-Out of n cities, there are k metro cities who have booster feul stations, feul filling can be done in no time (0 seconds), but once filled with the booster fuel, the spped of truck doubles hence time to travel any road thereafter only takes half the original time. The drivers of the two trucks are school friends meeting after a long time and want to meet each other as soon as possible. They have requested you to help them find earliest time they can meet if they follow the best possible path. Your job is to output the earliest time they can meet. Complete function question_four and retirn -1 if they can not meet each other due to no connection between kargil and kanyakumari i.e if node 1 and n are disconnected.
-
-- You are given:
-  - A graph of the country (cities and roads with time taken to travel on those roads).
-  - A list of cities whcih hasve booster fuel stations.
-  - For simplification, the time taken to travel on any road without booster feul is even (i.e. edge weights are even)
-- Task:
-  - Determine the min time units after which they can meet each other.
-- The function syntax, input and output format is described in the `function_syntax.md` file
-- Sample input and output for sanity check:
-  * tests_Q4/edges.csv
-  * tests_Q4/trucks.csv
-  * tests_Q4/order_of_arrival.txt -->
