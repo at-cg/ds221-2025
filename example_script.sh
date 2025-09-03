@@ -8,5 +8,9 @@
 #SBATCH --output=out_%j.txt               # standard output file
 #SBATCH --error=err_%j.txt                # standard error file
 
+# -------------------------
+
+# Your commands to run your code should be here
+
 echo "Hello from Slurm job on $(hostname)"
 date
