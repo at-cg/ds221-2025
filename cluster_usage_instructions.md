@@ -26,7 +26,7 @@ parveshbarak@10.24.1.10’s password: defaultpassword
 - Use the cluster only during your assigned time slot.
 - Time slots are randomly chosen and rotated. Please do not bring requests to change.
 - To run your jobs on compute nodes, you would first need to create a job file (see [example_script.md](example_script.sh) for a toy example).
-- You can schedule your job for running by using `sbatch <your_job_script.sh>` command.
+- You can schedule your job for running by using `sbatch your_job_script.sh` command.
 - To see the status of your jobs, you may use `squeue --user username` command.
 
 ## Warnings & Penalties
