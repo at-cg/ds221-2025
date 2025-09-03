@@ -1,11 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=simple_test
-#SBATCH --nodes=1
-#SBATCH --partition=debug
-#SBATCH --nodelist=node1
-#SBATCH --ntasks=1
-#SBATCH --time=00:05:00
-#SBATCH --output=out_%j.txt
+#SBATCH --job-name=simple_test            # Job name
+#SBATCH --nodes=1                         # Number of nodes (do not change)
+#SBATCH --partition=debug                 # Partition or queue name (do not change)
+#SBATCH --nodelist=node1                  # Use the node assigned to you (change this if needed)
+#SBATCH --ntasks=1                        # Number of tasks per node
+#SBATCH --time=00:05:00                   # Maximum runtime (HH:MM:SS)
+#SBATCH --output=out_%j.txt               # standard output file
+#SBATCH --error=err_%j.txt                # standard error file
 
 echo "Hello from Slurm job on $(hostname)"
 date
