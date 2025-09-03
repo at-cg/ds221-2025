@@ -6,7 +6,7 @@
 3. **Password:** `defaultpassword`
 
 **Example Login:** 
-(If the iis email id of student is: parveshbarak@iisc.ac.in)
+(If the iisc email id of student is: parveshbarak@iisc.ac.in)
 ```bash
 ssh parveshbarak@10.24.1.10
 parveshbarak@10.24.1.10’s password: defaultpassword
