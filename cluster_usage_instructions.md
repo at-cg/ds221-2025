@@ -28,6 +28,7 @@ parveshbarak@10.24.1.10’s password: defaultpassword
 - To run your jobs on compute nodes, you would first need to create a job file (see [example_script.md](example_script.sh) for a toy example).
 - You can schedule your job for running by using `sbatch your_job_script.sh` command.
 - To see the status of your jobs, you may use `squeue --user username` command.
+- For other commands specific to SLURM job scheduler used by the teaching cluster, please check [slurm documentation](https://slurm.schedmd.com/overview.html).
 
 ## Warnings & Penalties
 - **A 20% marks penalty will be imposed if:**
