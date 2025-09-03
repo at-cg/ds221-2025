@@ -6,7 +6,7 @@
 * **Due on 20-09-2025 11:59 PM** (No extension will be granted)
 
 ## INSTRUCTIONS
-All problems must be solved using C++ and compile/execute correctly on the teaching cluster. You may test and debug on your local machine, but the final evaluation will be done on the cluster. 
+All problems must be solved using C++ and compile/execute correctly on the [teaching cluster](cluster_usage_instructions.md). You may test and debug on your local machine, but the final evaluation will be done on the cluster. 
 
 All performance numbers given in your report should be on compute nodes of the cluster. Profiling experiments should be run during your assigned timeslot to avoid performance interference. We should be able to reproduce your performance results.
 
