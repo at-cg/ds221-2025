@@ -59,7 +59,7 @@ $\textbf{Input constraints:}$
 - $1 \leq n \leq 10^{6}$, where $n$ is the number of loading junctions (leaf nodes)  
 - $1 \leq m \leq 100$, where $m$ is the number of parcels on each loading junction  
 - $1 \leq k \leq 10^{5}$, where $k$ is the number of queries  
-- Junctions/nodes are numbered from 1 to $n$
+- Junctions/nodes are numbered from 1,2,3,4,....
 
 $\textbf{Output:}$
 - A vector of non-negative integers  
